@@ -1,6 +1,6 @@
 import React from "react";
 
-function Content() {
+function Home() {
 	return (
 		<>
 			<div className='body'>
@@ -12,4 +12,4 @@ function Content() {
 		</>
 	);
 }
-export default Content;
+export default Home;
