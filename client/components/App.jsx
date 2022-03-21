@@ -4,8 +4,11 @@ import Home from './Home'
 function App() {
   return (
     <>
-      <Nav />
-      <Home />
+    <div>
+    <Nav />
+    <Home />
+    </div>
+      
     
     </>
   )

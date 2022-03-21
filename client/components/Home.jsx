@@ -3,10 +3,10 @@ import React from "react";
 function Home() {
 	return (
 		<>
-			<div className='body'>
+			<div className='content'>
 				<h1>Welcome to Kiwikickz</h1>
 				<p>
-					<img src='../server/public/kiwikickz.png'></img>
+					<img id='img' src='./images/kiwikickz.png'></img>
 				</p>
 			</div>
 		</>
