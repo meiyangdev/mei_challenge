@@ -8,10 +8,9 @@ function App() {
     <Nav />
     <Home />
     </div>
-      
-    
     </>
   )
+  
 }
 
 export default App

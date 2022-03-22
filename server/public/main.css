@@ -5,10 +5,10 @@
     height: 100px;
     line-height: 60px;
     width: 100vw;
-  list-style-type: none;
-  
+    list-style-type: none;
+    text-decoration: none;
 }
-.home {
+.navhome {
   background-color: aqua;
   margin: 0 10 0 50px;
   text-align: left;
@@ -26,12 +26,16 @@
         width: 40px;
       }
     } 
+  .home a:hover {
+      transform: scale(2);
+      cursor: pointer;  
+    }
 .menu {
-  background-color: blue;
-  display: inline-block;
+  background-color:antiquewhite;
   float: right;
   width: 500px;
   margin: 0 50 0 0px;
+  display: float;
 } @media(max-width: 768px) {
   .menu {
     margin-right: 15px;
@@ -42,6 +46,13 @@
       margin-right:5px;
       width: 80px;
     }
+  }
+  .navhome a {
+    text-decoration: none;
+  }
+  .menu a:hover {
+    transform: scale(2);
+    cursor: pointer;  
   }
 .menu ul {
       display: inline-block;
@@ -75,9 +86,9 @@
   text-decoration: none;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
-}
+} */
 
-.content {
+.body {
   background-color: aliceblue;
     top: 0;
     margin: 0 10px;
@@ -91,6 +102,42 @@
   height: 200px;
   
 }
+.content {
+  display: inline-block;
+  margin: 10 10px;
+  padding: 10 10 10 10px;
+  line-height: 40px;
+  width: 70vw;
+  font-size:22px;
+  
+}
+.sidebar {
+  
+    height: 100%;
+    width: 150px;
+    position: absolute;
+    right: 0;
+    top: 108px;
+    padding-top: 40px;
+    background-color: lightblue;
+    text-decoration: none;
+    }
+    
+.sidebar div {
+    padding: 8px;
+    font-size: 24px;
+    display: block;
+    
+    }
+.sidebar a {
+    padding-bottom:10px;
+    text-decoration: none;
+    }
+.sidebar a:hover {
+    transform: scale(2);
+    cursor: pointer;  
+
+    }
   
 
 
