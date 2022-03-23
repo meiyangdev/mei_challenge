@@ -10,11 +10,24 @@ function Nav() {
      
       <nav className='menu'>
       <ul>
-        <li><a href="#about">Services</a></li>
-        <li><a href="#contact">News</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li className='nav-item'>
+          <a href="#about">Services</a>
+        </li>
+        <li className='nav-item'>
+          <a href="#contact">News</a>
+        </li>
+        <li className='nav-item'>
+          <a href="#about">About</a>
+        </li>
+        <li className='nav-item'>
+          <a href="#contact">Contact</a>
+        </li>
       </ul>
+      <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+      </div>
       </nav>  
      
       

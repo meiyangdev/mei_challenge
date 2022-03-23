@@ -1,7 +1,7 @@
 .navbar {
     background-color: #B0C4DE;
     position: relative;
-    top: 0;
+    padding-top: 0;
     height: 100px;
     line-height: 60px;
     width: 100vw;
@@ -9,29 +9,32 @@
     text-decoration: none;
 }
 .navhome {
-  background-color: aqua;
   margin: 0 10 0 50px;
   text-align: left;
   padding: 5 20px;
   float: left;
   width: 100px;
 } @media(max-width: 768px) {
-    .home {
+    .navhome {
       margin-left: 15px;
       width:70px;
     }
-  } @media(max-width: 390px) {
-      .home {
+  } @media(max-width: 380px) {
+      .navhome {
         margin-left:5px;
         width: 40px;
       }
     } 
-  .home a:hover {
+  .navhome a {
+    text-decoration: none;
+    color:black;
+  }
+  .navhome a:hover {
       transform: scale(2);
       cursor: pointer;  
     }
 .menu {
-  background-color:antiquewhite;
+  
   float: right;
   width: 500px;
   margin: 0 50 0 0px;
@@ -47,7 +50,7 @@
       width: 80px;
     }
   }
-  .navhome a {
+  .menu a {
     text-decoration: none;
   }
   .menu a:hover {
@@ -64,7 +67,7 @@
       -webkit-transition: transform 0.5s ease-out;
     } @media(max-width: 640px) {
         .menu ul {
-          display: none;
+          display: inline-block;
         }
       } @media(orientation: landscape) {
         .menu ul {
@@ -76,7 +79,7 @@
   display: inline-block;
 }
 .menu li a {
-  color: rgb(13, 26, 38);
+  color: black;
   display: block;
   height: 40px;
   letter-spacing: 1px;
@@ -92,7 +95,7 @@
   background-color: aliceblue;
     top: 0;
     margin: 0 10px;
-    padding: 10 10 10 10px;
+    padding: 0 10 10 10px;
     line-height: 60px;
     width: 100vw;
   list-style-type: none;
@@ -112,31 +115,35 @@
   
 }
 .sidebar {
-  
+    overflow: hidden;
     height: 100%;
-    width: 150px;
+    width: 200px;
     position: absolute;
     right: 0;
     top: 108px;
     padding-top: 40px;
-    background-color: lightblue;
+    background-color: #bcd4e6;
+    text-align: center;
     text-decoration: none;
-    }
+    }@media(max-width: 640px) {
+      .sidebar {
+        width: 80px;
+      }
+    } @media(max-width: 380px) {
+      .sidebar {
+          width: 40px;
+        }
+      }
     
-.sidebar div {
-    padding: 8px;
-    font-size: 24px;
-    display: block;
-    
-    }
 .sidebar a {
-    padding-bottom:10px;
+    display: block;
+    padding:0 20 20 10px;
     text-decoration: none;
+    color:black;
     }
 .sidebar a:hover {
     transform: scale(2);
     cursor: pointer;  
-
     }
   
 

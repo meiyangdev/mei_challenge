@@ -45,4 +45,4 @@ const cost=rate*29*7
 
 const sortedRateOfActivePlan=rateOfActivePlan.sort((a,b)=> a.rate-b.rate)
 
-console.log(sortedRateOfActivePlan.name)
+console.log(sortedRateOfActivePlan[0].name)

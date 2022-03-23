@@ -21,10 +21,10 @@ function Home() {
 	   <div className='sidebar'>
 			<h2>Overview</h2>
 			<nav>
-				<a href='#'>UserStories</a>
-				<a href='#'>Tech Stack</a>
-				<a href='#'>Review</a>
-				<a href='#'>Learn More</a>
+				<a className='sidebarATag' href='#'>UserStories</a>
+				<a className='sidebarATag'href='#'>Tech Stack</a>
+				<a className='sidebarATag'href='#'>Review</a>
+				<a className='sidebarATag'href='#'>Learn More</a>
 			</nav>
 			</div>
 			
